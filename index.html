@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Never Settle OnePlus 15 interactive showcase.">
+    <title>OnePlus 15 | Never Settle</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <input id="scene-1" type="radio" name="scene" value="1" checked>
+    <input id="scene-2" type="radio" name="scene" value="2">
+    <input id="scene-3" type="radio" name="scene" value="3">
+    <input id="scene-4" type="radio" name="scene" value="4">
+    <input id="scene-5" type="radio" name="scene" value="5">
+
+    <main class="site">
+        <header class="topbar">
+            <a class="brand" href="#scene-1">
+                ONEPLUS<span>15</span>
+            </a>
+
+            <p class="tagline">NEVER SETTLE</p>
+
+            <button class="sound-button" id="sound-button" type="button" aria-label="Toggle interface sound">
+                ◌
+            </button>
+        </header>
+
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Flagship Killer.</p>
+
+                <h1>
+                    OnePlus
+                    <strong>15</strong>
+                </h1>
+
+                <p class="hero-intro">
+                    A smartphone with powerful performance and battery life, featuring camera technology with LUMO processing and advanced AI technology.
+                </p>
+
+                <div class="hero-actions">
+                    <button class="primary-button" id="explore-button" type="button">
+                        Explore device
+                    </button>
+
+                    <span class="page-indicator">
+                        <strong id="current-page">01</strong>
+                        <span>/ 05</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="phone-stage">
+                <div class="phone-orbit orbit-one"></div>
+                <div class="phone-orbit orbit-two"></div>
+                <div class="phone-glow"></div>
+
+                <div
+                    class="phone"
+                    id="phone"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Interactive OnePlus 15 phone. Drag to rotate."
+                    title="Drag to rotate · Click to spin"
+                >
+                    <div class="phone-side"></div>
+
+                    <div class="phone-face phone-back">
+                        <img
+                            src="https://d28eiw7gjp7gcv.cloudfront.net/hardware/partner/9b9e4084-25c7-4100-9868-8d20e79f2422_0.png?$QC_Responsive$&fmt=png-alpha"
+    						alt="OnePlus phone rear design"
+                        >
+                    </div>
+
+                    <div class="phone-face phone-front">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMx-txAsGSBhNLXtIxPJUMi5PMMpPFzeYD5veZ16yJ_guOQAOTmXNo6P8&s=10"
+    						alt="OnePlus phone display"
+                        >
+
+                        <div class="screen-status">
+                            <span>04:44</span>
+                            <span>MadeBy:@V</span>
+                        </div>
+
+                        <div class="screen-content">
+                            <span class="screen-brand">ONEPLUS</span>
+                            <strong>Never<br>Settle</strong>
+                        </div>
+
+                        <div class="screen-home-indicator"></div>
+                    </div>
+
+                    <div class="phone-shine"></div>
+                </div>
+
+                <p class="toy-help">Drag to rotate · Click to spin</p>
+            </div>
+        </section>
+
+        <section class="content-area" aria-live="polite">
+            <div class="content-panel" data-scene="1">
+                <p class="eyebrow">01 / INTRODUCTION</p>
+                <h2>Exists to Compete.</h2>
+                <p>
+                    The OnePlus 15 arrives to compete in the fiercely contested flagship market; AI technology and advanced camera processing deliver stunning photos.
+                </p>
+                <p class="small-note">
+                    *This showcase is fan-made not an official website
+                </p>
+            </div>
+
+            <div class="content-panel" data-scene="2">
+                <p class="eyebrow">02 / DESIGN</p>
+                <h2>Premium Build Quality.</h2>
+                <p>
+                    Exceptionally tough and durable build featuring an advanced Micro-Arc Oxidation frame, Gorilla Glass Victus 2, and an elite IP68/IP69K water resistance rating.
+                </p>
+
+                <div class="feature-list">
+                    <span>Premium finish</span>
+                    <span>Comfortable grip</span>
+                    <span>Clean design</span>
+                </div>
+            </div>
+
+            <div class="content-panel" data-scene="3">
+                <p class="eyebrow">03 / PERFORMANCE</p>
+                <h2>Power on, Limits off.</h2>
+                <p>
+                    Powered by the latest Qualcomm chipset the 8 Elite Gen 5 and a display with a refresh rate of up to 165Hz, and a long-lasting 7,300mAh battery featuring bypass charging technology, wireless charging, as well as 120W wired and 50W wireless charging.
+                </p>
+
+                <div class="stat-grid">
+                    <div>
+                        <strong>165Hz</strong>
+                        <span>Ultra Smooth display</span>
+                    </div>
+                    <div>
+                        <strong>5G</strong>
+                        <span>Connected wherever you go</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Built for daily momentum</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-panel" data-scene="4">
+                <p class="eyebrow">04 / CAMERA</p>
+                <h2>Great results with a single shot.</h2>
+                <p>
+                    The OnePlus 15 features a triple 50MP rear camera system alongside a 32MP front-facing selfie camera, replacing Hasselblad branding with its proprietary DetailMax Engine computational processing.
+                </p>
+
+                <button class="action-button" id="camera-button" type="button">
+                    Try the Camera.
+                </button>
+            </div>
+
+            <div class="content-panel" data-scene="5">
+                <p class="eyebrow">05 / OXYGENOS</p>
+                <h2>Clean software. Less bloatware.</h2>
+                <p>
+                    OxygenOS 16 is a major software update from OnePlus built on the Android 16 base. It brings a fresh design, smoother animations, and new connection tools. brings a simple, personal, and fluid experience.
+                    Make the phone yours without getting buried under unnecessary
+                    complexity.
+                </p>
+
+                <button class="action-button" id="settle-button" type="button">
+                    Never Settle.
+                </button>
+            </div>
+        </section>
+
+        <nav class="navigation" aria-label="Page navigation">
+            <button class="nav-button" id="previous-button" type="button">
+                ← Previous
+            </button>
+
+            <div class="page-buttons">
+                <label for="scene-1">01</label>
+                <label for="scene-2">02</label>
+                <label for="scene-3">03</label>
+                <label for="scene-4">04</label>
+                <label for="scene-5">05</label>
+            </div>
+
+            <button class="nav-button" id="next-button" type="button">
+                Next →
+            </button>
+        </nav>
+
+        <footer>
+            <span>Made By @V</span>
+            <span>NEVER SETTLE</span>
+        </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status"></div>
+
+    <div class="camera-modal" id="camera-modal" aria-hidden="true">
+        <div class="camera-modal-card">
+            <button class="modal-close" id="modal-close" type="button" aria-label="Close camera mode">
+                ×
+            </button>
+
+            <div class="camera-preview">
+            </div>
+
+            <h2>Ready to capture.</h2>
+            <p>
+                This is a visual concept interaction,
+                not a real camera application.
+            </p>
+
+            <button class="action-button" id="capture-button" type="button">
+                Capture
+            </button>
+        </div>
+    </div>
+</body>
+</html>
